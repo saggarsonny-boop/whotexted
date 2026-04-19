@@ -4,6 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'WhoTextedMe — Free Phone Lookup',
   description: 'Free reverse phone number lookup. Find carrier, line type, and location for any number.',
+  icons: { icon: '/favicon.svg', apple: '/favicon.svg' },
 }
 
 const NAV_STYLE: React.CSSProperties = { fontSize: '11px', color: 'rgba(180,200,225,0.55)', textDecoration: 'none' }
