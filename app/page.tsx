@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react'
 import type { LookupResult } from './api/lookup/route'
 import styles from './page.module.css'
 import AutoDemo from './components/AutoDemo'
+import FirstVisitCard from './components/FirstVisitCard'
 
 const EXAMPLES = [
   '+44 7700 900123',
@@ -53,6 +54,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <AutoDemo />
+      <FirstVisitCard />
       <div className={styles.hero}>
         <div className={styles.badge}>Free · No signup</div>
         <h1 className={styles.title}>Who Texted Me?</h1>
